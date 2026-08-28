@@ -1,1 +1,181 @@
 
+# ============================================================
+# Antonio B. Marín-Carballo — Personal Academic Website
+# ============================================================
+
+# --- Site settings ---
+title: "Antonio B. Marín-Carballo"
+title_separator: "|"
+subtitle: "Theoretical Physics · Complex Systems · Biophysics"
+
+name: "Antonio B. Marín-Carballo"
+
+description: >-
+  Theoretical physicist working on complex systems,
+  non-equilibrium physics, rare-event sampling,
+  computational modeling, and biophysics.
+  
+url: "https://MarinCarballo.github.io"
+
+repository: "MarinCarballo/MarinCarballo.github.io"
+
+
+# ============================================================
+# Theme
+# ============================================================
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Available skins include:
+# air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+minimal_mistakes_skin: "neon"
+
+locale: "en-US"
+
+# Search button
+search: true
+
+# Reading time on posts/pages
+read_time: true
+
+# Show estimated reading time
+words_per_minute: 200
+
+
+# ============================================================
+# Author
+# ============================================================
+
+author:
+  name: "Antonio B. Marín-Carballo"
+
+  avatar: "/assets/images/profile.jpg"
+
+  bio: >-
+    Theoretical physicist interested in non-equilibrium systems,
+    complex systems, rare-event sampling, computational modeling
+    and biophysics.
+
+  location: "Göttingen, Germany"
+
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:antoniomarin333@gmail.com"
+
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MarinCarballo"
+
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=iicSOtkAAAAJ&hl=es"
+
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/my-orcid?orcid=0009-0001-1204-4313"
+
+
+# ============================================================
+# Social / SEO
+# ============================================================
+
+social:
+  type: "Person"
+  name: "Antonio B. Marín-Carballo"
+  links:
+    - "https://github.com/MarinCarballo"
+    - "https://scholar.google.com/citations?user=iicSOtkAAAAJ&hl=e"
+    - "https://orcid.org/my-orcid?orcid=0009-0001-1204-4313"
+
+
+# ============================================================
+# Navigation / Content
+# ============================================================
+
+include:
+  - _pages
+
+permalink: /:categories/:title/
+
+paginate: 5
+paginate_path: /page:num/
+
+
+# ============================================================
+# Markdown
+# ============================================================
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
+# ============================================================
+# Plugins
+# ============================================================
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+
+# ============================================================
+# Defaults
+# ============================================================
+
+defaults:
+
+  # Pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+  # Posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+
+# ============================================================
+# Footer
+# ============================================================
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MarinCarballo"
+
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=iicSOtkAAAAJ&hl=e"
+
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/my-orcid?orcid=0009-0001-1204-4313"
+
+# ============================================================
+# Files Jekyll should ignore
+# ============================================================
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
