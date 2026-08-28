@@ -1,9 +1,12 @@
-
 # ============================================================
 # Antonio B. Marín-Carballo — Personal Academic Website
 # ============================================================
 
-# --- Site settings ---
+
+# ============================================================
+# Site settings
+# ============================================================
+
 title: "Antonio B. Marín-Carballo"
 title_separator: "|"
 subtitle: "Theoretical Physics · Complex Systems · Biophysics"
@@ -14,8 +17,9 @@ description: >-
   Theoretical physicist working on complex systems,
   non-equilibrium physics, rare-event sampling,
   computational modeling, and biophysics.
-  
-url: "https://marincarballo.github.io/"
+
+url: "https://marincarballo.github.io"
+baseurl: ""
 
 repository: "MarinCarballo/MarinCarballo.github.io"
 
@@ -26,19 +30,15 @@ repository: "MarinCarballo/MarinCarballo.github.io"
 
 remote_theme: "mmistakes/minimal-mistakes"
 
-# Available skins include:
+# Available skins:
 # air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 minimal_mistakes_skin: "neon"
 
 locale: "en-US"
 
-# Search button
 search: true
 
-# Reading time on posts/pages
 read_time: true
-
-# Show estimated reading time
 words_per_minute: 200
 
 
@@ -69,11 +69,11 @@ author:
 
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=iicSOtkAAAAJ&hl=es"
+      url: "https://scholar.google.com/citations?user=iicSOtkAAAAJ&hl=en"
 
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
-      url: "https://orcid.org/my-orcid?orcid=0009-0001-1204-4313"
+      url: "https://orcid.org/0009-0001-1204-4313"
 
 
 # ============================================================
@@ -83,10 +83,11 @@ author:
 social:
   type: "Person"
   name: "Antonio B. Marín-Carballo"
+
   links:
     - "https://github.com/MarinCarballo"
-    - "https://scholar.google.com/citations?user=iicSOtkAAAAJ&hl=e"
-    - "https://orcid.org/my-orcid?orcid=0009-0001-1204-4313"
+    - "https://scholar.google.com/citations?user=iicSOtkAAAAJ&hl=en"
+    - "https://orcid.org/0009-0001-1204-4313"
 
 
 # ============================================================
@@ -97,9 +98,6 @@ include:
   - _pages
 
 permalink: /:categories/:title/
-
-paginate: 5
-paginate_path: /page:num/
 
 
 # ============================================================
@@ -155,6 +153,7 @@ defaults:
 # ============================================================
 # Footer
 # ============================================================
+
 footer:
   links:
     - label: "GitHub"
@@ -163,11 +162,12 @@ footer:
 
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=iicSOtkAAAAJ&hl=e"
+      url: "https://scholar.google.com/citations?user=iicSOtkAAAAJ&hl=en"
 
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
-      url: "https://orcid.org/my-orcid?orcid=0009-0001-1204-4313"
+      url: "https://orcid.org/0009-0001-1204-4313"
+
 
 # ============================================================
 # Files Jekyll should ignore
