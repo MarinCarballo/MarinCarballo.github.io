@@ -12,7 +12,7 @@ author_profile: true
 
 Müller, L. *, Mallick, P. *, **Marín-Carballo, A. B.** *, et al.
 
-*Chaos, Solitons and Fractalks, Volume 210, Part 1, 2026.
+*Chaos, Solitons and Fractals, Volume 210, Part 1, 2026.
 
 [View publication](https://doi.org/10.1016/j.chaos.2026.118649.){: .btn .btn--primary }
 
