@@ -19,12 +19,12 @@ header:
       url: "/cv/"
 
 excerpt: >-
-  Theoretical Physicist · Complex Systems · Biophysics
+  Theoretical Physics · Complex Systems · Biophysics
 ---
 
 # Hi, I'm Antonio 👋
 
-I am a **theoretical physicist** interested in understanding how complex
+I am a **physicist** interested in understanding how complex
 systems behave **far from equilibrium**.
 
 My work combines **statistical physics, computational modeling,
@@ -65,8 +65,8 @@ During my studies, I have worked on problems ranging from
 
 ### Rare events in active systems
 
-My current Master's thesis research focuses on **barrier crossing,
-rare-event sampling, and symmetry breaking** in a double-well potential
+My current Master's thesis research focuses on **barrier crossing and
+rare-event sampling** in a double-well potential
 driven by an **Active Brownian Particle**.
 
 I carry out this work in **Prof. Peter Sollich's group** at the Institute
@@ -74,7 +74,7 @@ for Theoretical Physics in Göttingen, in collaboration with
 **Johannes Zierenberg** at the Max Planck Institute for Dynamics and
 Self-Organization.
 
-The broader motivation is to understand how non-equilibrium driving
+The broader motivation is to understand how noise
 changes transition pathways, fluctuations, and rare-event statistics.
 
 [Read more about my research →](/research/){: .btn .btn--primary }
@@ -144,13 +144,11 @@ Bachelor's thesis:
 
 ## 💻 Computational toolkit
 
-I use computational and analytical tools to study dynamical systems,
-stochastic processes, and mathematical models.
-
 `Python` · `C/C++` · `Julia` · `Fortran` · `Mathematica/Wolfram` · `LaTeX`
 
 Methods I have worked with include:
 
+- MonteCarlo simulation
 - Numerical simulation
 - Differential equations
 - Linear stability analysis
@@ -198,9 +196,7 @@ physics and stochastic dynamics.
 
 ## 📫 Get in touch
 
-I am always interested in discussing **statistical physics,
-non-equilibrium systems, complex systems, computational methods, and
-related research**.
+I am always interested in discussing **cool physics and opportunities to collaborate!**.
 
 [Email me](mailto:antoniomarin333@gmail.com){: .btn .btn--primary }
 [GitHub](https://github.com/MarinCarballo){: .btn .btn--inverse }
