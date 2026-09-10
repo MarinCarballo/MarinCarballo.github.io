@@ -1,10 +1,8 @@
 ---
-
 title: "Research"
 permalink: /research/
 author_profile: true
-
---=-
+---
 
 My research interests lie at the intersection of **non-equilibrium statistical physics, complex systems, stochastic dynamics, and computational physics**.
 
