@@ -26,9 +26,9 @@ My project focuses on:
 * **Active Brownian particles**
 * **Non-equilibrium dynamics**
 
-More specifically, I study barrier crossing and symmetry breaking in a **double-well potential driven by an Active Brownian Particle**.
+More specifically, I study barrier crossing in a **double-well potential driven by an Active Brownian Particle**.
 
-The broader goal of this work is to understand how non-equilibrium activity modifies transition dynamics and rare-event behavior.
+The broader goal of this work is to understand how noise activity modifies transition dynamics and rare-event behavior.
 
 ---
 
