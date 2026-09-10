@@ -6,11 +6,21 @@ author_profile: true
 
 ## Research Publications
 
+### 2026
+
+**Stability and bifurcations of a minimal model for the effect of PrEP-related risk compensation in epidemics of sexually transmitted infections**
+
+Müller, L. *, Mallick, P. *, **Marín-Carballo, A. B.** *, et al.
+
+*Chaos, Solitons and Fractalks, Volume 210, Part 1, 2026.
+
+[View publication](https://doi.org/10.1016/j.chaos.2026.118649.){: .btn .btn--primary }
+
 ### 2025
 
 **Testing paradox may explain increased observed prevalence of bacterial STIs among MSM on HIV PrEP: A modeling study**
 
-Müller, L.*, Mallick, P.*, **Marín-Carballo, A. B.***, et al.
+Müller, L. *, Mallick, P. *, Dönges. P *, **Marín-Carballo, A. B.** *, et al.
 
 *Proceedings of the National Academy of Sciences of the United States of America*, **122**(44), e2524944122, 2025.
 
